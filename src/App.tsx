@@ -94,7 +94,7 @@ const ExperienceSection = () => (
         </div>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
         <ul className="space-y-4 text-gray-700 font-medium text-lg">
           <li className="flex items-start gap-3">
             <span className="text-primary-400 text-2xl">🌸</span>
@@ -109,22 +109,6 @@ const ExperienceSection = () => (
             <span>擔任現場人流分配人員，及時疏通分配旅客登記櫃台。</span>
           </li>
         </ul>
-        
-        <div className="grid grid-cols-2 gap-4">
-          {/* 替換圖片: 在 src 屬性放入您的工作照網址 */}
-          <div className="relative group rounded-2xl overflow-hidden border-4 border-white shadow-md">
-            <img src="https://lurl.cc/bh11b" alt="Work 1" className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500" />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-              <p className="text-white font-bold text-lg">登船報到</p>
-            </div>
-          </div>
-          <div className="relative group rounded-2xl overflow-hidden border-4 border-white shadow-md">
-            <img src="https://lurl.cc/oNgCA" alt="Work 2" className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500" />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-              <p className="text-white font-bold text-lg">行李托運</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </motion.div>
