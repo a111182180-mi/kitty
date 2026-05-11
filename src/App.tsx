@@ -263,7 +263,7 @@ const PortfolioSection = ({ onOpenVideo }: { onOpenVideo: () => void }) => (
             <div className="bg-white/50 p-6 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-center text-gray-800">個人 3D 公仔模型</h3>
               <div className="flex flex-col items-center">
-                <a href="https://studio.tripo3d.ai/3d-model/6c10e7f3-a5ce-4634-92ec-93b1491d2c7d?invite_code=QV2Z54" target="_blank" rel="noreferrer" className="w-full h-80 bg-primary-50 rounded-xl overflow-hidden border-8 border-white shadow-md relative group block">
+                <a href="https://studio.tripo3d.ai/3d-model/1d5f9197-2691-422c-ab4a-92e9e035e447?invite_code=QV2Z54" target="_blank" rel="noreferrer" className="w-full h-80 bg-primary-50 rounded-xl overflow-hidden border-8 border-white shadow-md relative group block">
                    {/* 替換圖片: 放您生成的3D人物照片 */}
                    <img src={avatar3DImg} alt="3D Avatar" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
